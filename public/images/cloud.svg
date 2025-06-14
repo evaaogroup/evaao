@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#gradient1)" rx="20"/>
+  
+  <!-- Cloud Shape -->
+  <path d="M100 150 C100 120, 130 100, 160 100 C190 100, 220 120, 220 150 C250 150, 280 170, 280 200 C280 230, 250 250, 220 250 L100 250 C70 250, 40 230, 40 200 C40 170, 70 150, 100 150" fill="#1a237e" opacity="0.9"/>
+  
+  <!-- Server Racks -->
+  <rect x="120" y="120" width="40" height="80" rx="5" fill="url(#gradient2)" opacity="0.8"/>
+  <rect x="170" y="120" width="40" height="80" rx="5" fill="url(#gradient2)" opacity="0.8"/>
+  <rect x="220" y="120" width="40" height="80" rx="5" fill="url(#gradient2)" opacity="0.8"/>
+  
+  <!-- Server Details -->
+  <rect x="130" y="130" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  <rect x="130" y="145" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  <rect x="130" y="160" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  <rect x="130" y="175" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  
+  <rect x="180" y="130" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  <rect x="180" y="145" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  <rect x="180" y="160" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  <rect x="180" y="175" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  
+  <rect x="230" y="130" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  <rect x="230" y="145" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  <rect x="230" y="160" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  <rect x="230" y="175" width="20" height="5" rx="2.5" fill="white" opacity="0.6"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="80" r="15" fill="url(#gradient2)" opacity="0.6"/>
+  <rect x="300" y="180" width="30" height="30" rx="8" fill="url(#gradient2)" opacity="0.6"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0" y1="0" x2="400" y2="300">
+      <stop offset="0%" stop-color="#2196f3"/>
+      <stop offset="100%" stop-color="#21cbf3"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0" y1="0" x2="100" y2="100">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e3f2fd"/>
+    </linearGradient>
+  </defs>
+</svg> 
