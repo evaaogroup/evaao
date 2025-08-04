@@ -5,14 +5,10 @@ import { PortfolioSection } from "./components/PortfolioSection";
 import { AboutSection } from "./components/AboutSection";
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
-import { SEO } from "./components/SEO";
-import { PerformanceOptimizer } from "./components/PerformanceOptimizer";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
-      <SEO />
-      <PerformanceOptimizer />
       <Header />
       <main>
         <section id="home">
@@ -34,4 +30,4 @@ export default function App() {
       <Footer />
     </div>
   );
-} 
+}

@@ -1,25 +1,27 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Evaao - Innovative Web, AI & Enterprise Solutions",
+  "short_name": "Evaao",
+  "description": "Comprehensive technology solutions including web applications, AI & LLM models, gaming applications, ERP & CRM solutions, and mobile applications.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0E1E3A",
+  "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
     },
     {
-      "src": "logo192.png",
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "purpose": "maskable any"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
+  "categories": ["business", "productivity", "technology"],
+  "lang": "en",
+  "dir": "ltr"
+} 
